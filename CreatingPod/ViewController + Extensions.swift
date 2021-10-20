@@ -6,6 +6,8 @@
 //
 
 import UIKit
+import GoogleMaps
+import SDWebImage
 
 public extension UIViewController {
     func hideKeyboardWhenTappedAround() {
@@ -18,8 +20,11 @@ public extension UIViewController {
     @objc func dismissKeyboard() {
         view.endEditing(true)
     }
-}
+    func setImageFromWeb(imageView: UIImageView) {
+        imageView.sd_setImage(with: URL(string: "http://www.domain.com/path/to/image.jpg"), placeholderImage: UIImage(named: "placeholder.png"))
 
+    }
+}
 
 public class SwiftyLib {
 
@@ -34,3 +39,5 @@ public class SwiftyLib {
     }
     
 }
+ 
+

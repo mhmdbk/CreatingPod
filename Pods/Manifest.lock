@@ -1,0 +1,26 @@
+PODS:
+  - GoogleMaps (5.2.0):
+    - GoogleMaps/Maps (= 5.2.0)
+  - GoogleMaps/Base (5.2.0)
+  - GoogleMaps/Maps (5.2.0):
+    - GoogleMaps/Base
+  - SDWebImage (5.12.1):
+    - SDWebImage/Core (= 5.12.1)
+  - SDWebImage/Core (5.12.1)
+
+DEPENDENCIES:
+  - GoogleMaps
+  - SDWebImage (~> 5.0)
+
+SPEC REPOS:
+  trunk:
+    - GoogleMaps
+    - SDWebImage
+
+SPEC CHECKSUMS:
+  GoogleMaps: 025272d5876d3b32604e5c080dc25eaf68764693
+  SDWebImage: 4dc3e42d9ec0c1028b960a33ac6b637bb432207b
+
+PODFILE CHECKSUM: f079e25d7d2fe40031a6b6e97f728d57b75d8a84
+
+COCOAPODS: 1.11.2
