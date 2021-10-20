@@ -7,7 +7,7 @@
 
 import UIKit
 
-extension UIViewController {
+public extension UIViewController {
     func hideKeyboardWhenTappedAround() {
         let tap = UITapGestureRecognizer(target: self, action: #selector(UIViewController.dismissKeyboard))
         tap.cancelsTouchesInView = false
@@ -21,7 +21,7 @@ extension UIViewController {
 }
 
 
-public final class SwiftyLib {
+public class SwiftyLib {
 
     let name = "SwiftyLib"
     
